@@ -1,15 +1,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-
-
 }
-.mainhome{
-    width: cover;
-    height: 900px;
-    background-image: url(/Images/Bakgrunn3.jpg);
-    background-repeat: no-repeat;
-    background-size:100% auto;
-    background-color: #CF8AF2;}
+
 
 .mainvisit{
     width: cover;
@@ -19,10 +11,16 @@ body{
     background-size: cover;
 }
 
-
+.main-about{
+    width: cover;
+    height: 2000px;
+    background-image: url(./Images/ABOUT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .maingetinvolved{
-    background-image: url(./Images/GETGET.jpg);
+    background-image: url(./Images/GETINVOLVED200.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 2000px;
@@ -37,6 +35,24 @@ body{
     display: flex;
     max-width: 100%;
 }
+
+.exibition-h1-box{
+    position: relative;
+    text-align: center;
+    color:#E4E4E4;
+}
+
+.our-exi-h1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    } 
+
 
 .new-home-picture{
     display: flex;
@@ -57,7 +73,6 @@ body{
     top:20px;
     right: 160px;
     font-size: 120px;
-
 }
 
 .news-section{
@@ -66,6 +81,90 @@ body{
     justify-content: space-between;   
 }
 
+.kids-box{
+    display: flex;     
+}
+
+.kids-img{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100% auto;
+}
+.kids-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2500px;
+    color:#000000;
+    background-color:#FEC182;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.vist-alt-img{
+    visibility: hidden;
+}
+
+.teacher-box{
+    display: flex;
+}
+
+.teacher-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2500px;
+    color: #000000;
+    background-color: #49BA99;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.kids-p ,.researchers-p ,.teacher-p{
+    font-size: 25px;
+}
+
+.researchers-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2500px;
+    color: #000000;
+    background-color:#FC7C61;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.researchers-box{
+    display: flex;
+}
+.h1-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.h1-index{
+    font-size: 70px;
+    background-color: #CF8AF2;
+    padding: 20px;
+}
+
+.h1-explore{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.explore-head{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    background-color:#FC7C61;
+    padding: 20px;   
+}
 
 .news1{
     display: flex;
@@ -80,24 +179,13 @@ body{
 
 .news-container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 
 .figure-image{ 
     display: flex;
     align-items: center
-}
-
-.h1-box{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-.h1-index{
-    font-size: 70px;
-    background-color: #CF8AF2;
-    padding: 20px;
 }
 
 .news1-h2{
@@ -109,9 +197,6 @@ body{
 .news1-p{
     font-size: 25px;    
 }
-
-
-
 
 .anav:hover{
     color: #CF8AF2;
@@ -129,16 +214,11 @@ body{
     font-size: 30px;
     text-decoration: underline;
     text-decoration-color:#FEC182;
-    text-decoration-thickness: 7px;
-    
+    text-decoration-thickness: 7px;   
 }
 
-
-
-
-
 .body-home{
-background-color:  #CF8AF2;
+    background-color:  #CF8AF2;
 }
 
 
@@ -148,17 +228,27 @@ background-color:  #CF8AF2;
     height: 150px;
     justify-content: space-around;
     position: sticky;
-    top: 0%;
-    
+    top: 0%;  
 }
 
 .about-box{
-    display: flex;   
-}
-.about-box-content{
     display: flex;
+    justify-content: center;   
+}
+
+.about-box-content{
+    background: rgba(255, 255, 255, 0.8); 
+    margin-top: 0%;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
     align-items: center;
-      
+    margin-top: 50px; 
+    border:solid 20px #49BA99;
+    padding: 20px;     
 }
 
 .getinvolved-info{
@@ -180,8 +270,7 @@ background-color:  #CF8AF2;
     flex-direction: column;
     align-items: center;
     background: rgba(255, 255, 255, 0.8);
-    border:#49BA99 SOLID 10PX; 
-   
+    border:#49BA99 SOLID 20PX; 
     padding: 50px;
 }
 
@@ -189,13 +278,11 @@ background-color:  #CF8AF2;
     font-size: 30px;
 }
 
-
-
 .about-picture{
     display: flex;
-    width: 500px;
+    width: 470px;
     height: 350px;
-    padding:100px}
+    }
 
 .logo ,.logo-footer{
     height: 300px;
@@ -213,8 +300,6 @@ background-color:  #CF8AF2;
     color: #FEC182;
     font-size: 30px;
 }
-
-
 
 .visit-info{
     width: 900px;
@@ -244,21 +329,17 @@ background-color:  #CF8AF2;
     text-decoration-color: #CF8AF2;
 }
 
-
-
 .visit-h1{
     font-size: 50px;
     text-decoration: overline underline;
     text-decoration-thickness: 7px;
     text-decoration-color: #49BA99;
-
 }
 
 .admission-h3{
     font-size: 40px;
     color:black;
 }
-
 
 .p-hours ,.admission ,.adress{
     font-size: 30px;
@@ -272,20 +353,23 @@ background-color:  #CF8AF2;
 }
 
 .about-h1{
+    display: flex;
     font-size: 50px;
+    text-decoration: underline overline;
+    text-decoration-thickness: 7px;
+    text-decoration-color:#CF8AF2;
 }
 
 .about-p{
-    font-size: 20px;
+    font-size: 30px;
+    color:#000000 white;
+    padding: 20px;
 }
-
-
 
 header{
     position:relative;
 }
     
-
 nav{
     position: absolute;
 }
@@ -302,36 +386,7 @@ nav, #menu-checkbox {
    flex-direction: column;
    background-color:#E4E4E4;
    padding: 20px;
-   font-size: 25px;
-   
-}
-
-.flex-container1{
-    display: flex;
-    align-items: flex-start;
-    background-color: #FEC182;
-
-}
-
-.flex-container2{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    background-color:#FC7C61;
-
-}
-
-.CAP2{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 80%;
-}
-
-.img-container{
-    height: 600px;
-    width: 500px;
+   font-size: 25px;  
 }
 
 .footer{
@@ -367,7 +422,6 @@ nav, #menu-checkbox {
    align-items: center;
 }
 
-
 .subject-h1{
     background-color: #CF8AF2;
     display: inline-block;
@@ -386,7 +440,6 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
-
 }
 
 .subject-h3{
@@ -397,7 +450,6 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
-
 }
 
 .subject-h4{
@@ -408,7 +460,6 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
-
 }
 
 .subject-picture {
@@ -421,28 +472,19 @@ nav, #menu-checkbox {
 }
 
 
-
-
-
-
-
-
-
-
-
  /* desktop*/
 @media (min-width: 880px){
-    nav{
-        display: block;
-        position: static;
+nav{
+     display: block;
+     position: static;
     }
-    nav, header {
+ nav, header {
     display: flex;
     justify-content:center;
     align-items: center;
     position: static;}
 
-}
+
 
 .hamburger-icon{
     display: none;
@@ -459,47 +501,16 @@ nav, #menu-checkbox {
     border-radius: px;
        
 }
-
-
-
-.infoinbox{
-    font-size: 40px;
-    background-color: #CF8AF2;
-    margin-left: 40px;
-    padding:50px;
-    
-}
-
-.div-info{
-    display: flex;
-    justify-content: center;
-}
-
-.explore-box{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-
-
-
-.infotext{
-    font-size: 120px;
-    color:#FC7C61 ;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 
 /*tablet*/
 @media only screen and (min-width:481px) and (max-width:879px){
-.infotext{
-    font-size: 90px;
-}
+
 
 .logo ,.logo-footer{
     height: 200px;
        
-
 }
 
 .headerhome{
@@ -511,13 +522,6 @@ nav, #menu-checkbox {
     position: sticky;
     top: 0%;
     
-}
-.flex-container1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #FEC182;
-
 }
 
 .hamburger-icon{
@@ -565,28 +569,37 @@ nav, #menu-checkbox {
     margin: 5px;
     padding: 10px;
     background-color:white;  
-
-
 }
+.kids-image,.teacher-img ,.researchers-img{
+    width: 300px;
 }
-
-
+.our-exi-h1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    } 
+}
 
 /*mobile*/
 
 @media only screen and (max-width:480px){
-    .mainhome{
-        width: cover;
-        height: 350px;
-        background-image: url(./Images/CANVARED_11zon-2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% auto;}
+.mainhome{
+     width: cover;
+     height: 350px;
+     background-image: url(./Images/CANVARED_11zon-2.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% auto;}
 
-        .logo{
-            height: 200px;}
+.logo{
+    height: 150px;}
             
-        .headerhome{
-            align-items: center;
+.headerhome{
+    align-items: center;
         }
         
     .flex-container1{
@@ -594,12 +607,11 @@ nav, #menu-checkbox {
         flex-direction: column;
         align-items: center;
         background-color: #FEC182;
-
 }
 
 .hamburger-icon{
     display: inline;
-    margin-left: 30px;
+    margin-left: 10px;
 
 }
 .subject-p{
@@ -660,8 +672,81 @@ nav, #menu-checkbox {
     padding-right: 30px;
 }
 
+.about-picture{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    }
+    .about-box-content{
+        margin-top: 0%;
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.8);   
+          
+    }
+
+    .about-p{
+        font-size: 20px;
+    
+    }
+
+    .kids-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        color:#000000;
+        background-color:#FEC182;
+    }
+    
+        
+
+        .teacher-flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #000000;
+            background-color: #49BA99;
+           
+        }
+
+        .researchers-flex{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            color: #000000;
+            background-color:#FC7C61;
+            
+        }
+
+        .kids-image,.teacher-img ,.researchers-img{
+            width: 300px;
+        }
+
+        .our-exi-h1{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            font-size: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            } 
+
+        
+
+          }
+        
 
 
 
-}
+
+
 
