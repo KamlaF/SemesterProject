@@ -393,9 +393,12 @@ nav, #menu-checkbox {
 #menu-checkbox:checked ~ nav {
    display: block;
    flex-direction: column;
-   background-color:#E4E4E4;
+   background-color:#000000;
    padding: 20px;
-   font-size: 25px;  
+   font-size: 20px; 
+   height: 200px;
+   margin-top: 60px;
+ 
 }
 
 .footer{
@@ -597,6 +600,15 @@ nav{
     padding: 30px;
     border-radius: 20px;
     } 
+
+    .about-picture{
+        width: 300px;
+        height: 200px;
+    }
+
+.maingetinvolved{
+    height: 2800px;
+}
 }
 
 /*mobile*/
@@ -644,6 +656,11 @@ nav{
     font-size: 15px;
 }
 
+.explore-head{
+    font-size: 20px;
+
+}
+
 .maingetinvolved{
     
 
@@ -688,7 +705,7 @@ nav{
 
 .about-picture{
     display: flex;
-    width: 300px;
+    width: 200px;
     height: 200px;
     }
     .about-box-content{
@@ -720,40 +737,61 @@ nav{
     
         
 
-        .teacher-flex{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            align-items: center;
-            color: #000000;
-            background-color: #49BA99;
+ .teacher-flex{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-items: center;
+         color: #000000;
+         background-color: #49BA99;
            
         }
 
-        .researchers-flex{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            color: #000000;
-            background-color:#FC7C61;
+ .researchers-flex{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         color: #000000;
+         background-color:#FC7C61;
             
         }
 
-        .kids-image,.teacher-img ,.researchers-img{
-            width: 300px;
+ .kids-image,.teacher-img ,.researchers-img{
+         width: 200px;
         }
 
-        .our-exi-h1{
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.7);
-            font-size: 20px;
-            padding: 20px;
-            border-radius: 20px;
+ .our-exi-h1{
+         position:absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: rgba(0, 0, 0, 0.7);
+         font-size: 20px;
+         padding: 20px;
+         border-radius: 20px;
             } 
+    .support ,.voulenteer-info ,.internshipp{
+        font-size: 20px;
+    }
 
+    .h1getinvolved{
+        font-size: 30px;
+    }
+
+    .h2support ,.voulenteer ,.internship{
+        font-size: 20px;
+    }
+
+    .maingetinvolved{
+        height: 3000px;
+    }
+
+    .mainvisit{
+        height: 2200px;
+    }
+
+
+            
         
 
           }
