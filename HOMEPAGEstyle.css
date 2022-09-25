@@ -100,6 +100,7 @@ body{
     background-color:#FEC182;
     margin-bottom: 50px;
     padding: 20px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .vist-alt-img{
@@ -120,6 +121,7 @@ body{
     background-color: #49BA99;
     padding: 20px;
     margin-bottom: 50px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .kids-p ,.researchers-p ,.teacher-p{
@@ -136,6 +138,7 @@ body{
     background-color:#FC7C61;
     margin-bottom: 50px;
     padding: 20px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .researchers-box{
@@ -151,6 +154,7 @@ body{
     font-size: 70px;
     background-color: #CF8AF2;
     padding: 20px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .h1-explore{
@@ -164,6 +168,7 @@ body{
     font-size: 70px;
     background-color:#FC7C61;
     padding: 20px;   
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .news1{
@@ -175,12 +180,15 @@ body{
     margin: 5px;
     padding: 10px;
     background-color:white;
+   
 }
 
 .news-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
+    
 }
 
 .figure-image{ 
@@ -420,6 +428,7 @@ nav, #menu-checkbox {
    justify-content: center;
    flex-direction: column;
    align-items: center;
+   
 }
 
 .subject-h1{
@@ -430,6 +439,7 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .subject-h2{
@@ -440,6 +450,7 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .subject-h3{
@@ -450,6 +461,7 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .subject-h4{
@@ -460,6 +472,7 @@ nav, #menu-checkbox {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 50px;
+    box-shadow: darkgray 10px 10px 10px 10px;
 }
 
 .subject-picture {
