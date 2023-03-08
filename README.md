@@ -3,7 +3,7 @@
 
 Learning together
 
-![image](https://kamillafagerland.com/Screenshot 2023-0….png)
+![image](https://kamillafagerland.com/Screenshot%202023-03-02%20at%2022.26.16.png)
 
 A community science museum targeting young people and getting curious about learning new things.
 ## Description
