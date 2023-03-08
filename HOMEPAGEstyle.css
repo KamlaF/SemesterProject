@@ -177,7 +177,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:#CF8AF2 solid 10px;
+    border:#CF8AF2 solid 5px;
     margin: 5px;
     padding: 10px;
     background-color:white;
@@ -188,6 +188,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 600px;
    
     
 }
