@@ -1,32 +1,30 @@
-# Science Center Museum
-# Rainydays
+# Semester Project
+# Community Science Museum
 
-![image](https://kamillafagerland.com/Screenshot%202023-03-01%20at%2014.11.20.png)
+Learning together
 
-An online shop selling men's and women’s outdoor jackets. They are designed for a range of different outdoor activities that enrich people's lives.
+![image](https://kamillafagerland.com/Screenshot 2023-0….png)
 
-SLOGAN
-
-Pushing the comfort zone
-
+A community science museum targeting young people and getting curious about learning new things.
 ## Description
 
-In this assigement we were to buld a website for a company selling outdoor jackets. The site is buld with mostly HTML and CSS, and then some vanilla Javascript later in the course. The products are fetched with rest API from wordpress, and the contact form is with javascript. This was our first design assigement so the focus on ui/ux design and cms was also important. Wanted to make a easy clean site that would lead the customers to the products that the company wanted to sell without to much distractions.
+In this assigement we were to buld a website for a community science center. The design where to be especially appealing to kids and young adults. The site is buld with only HTML and CSS.
+The page is WCAG approved, and should be responsive and target the right audience with the design. I`ve used bright colors and fun pictures to make that happen. 
 
 The site pages are:
 
 - Home page
-- Contact Page
-- List of products
-- Product Details
-- Cart Page
-- Thank you for the order page
+- Visit Page
+- Exibition page
+- Get Involved page
+- About Page
+
 
 ## Built With
 
 - HTML
 - CSS
-- Vanilla Javascript
+
 
 
 
@@ -34,7 +32,7 @@ The site pages are:
 
  Clone the repo:
 
-git clone https://github.com/KamlaF/Design1.git
+git clone https://github.com/KamlaF/SemesterProject.git
 
 ### Running
 
